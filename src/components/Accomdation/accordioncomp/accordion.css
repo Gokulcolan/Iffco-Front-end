@@ -1,0 +1,7 @@
+.copm_th,
+.comp_td,
+.comp_tr {
+  border: 1px solid rgb(235, 226, 226);
+  border-collapse: collapse;
+  padding: 15px;
+}

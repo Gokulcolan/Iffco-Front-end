@@ -1,0 +1,133 @@
+.formik-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .formik-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .custom_radio_icon_checked {
+    height: 18px;
+    width: 18px;
+    background: #4844d7;
+    border: 1px solid #e9e9f0;
+    border-radius: 4px;
+  }
+  .custom_radio_icon {
+    height: 18px;
+    width: 18px;
+    background: #d5d5d5;
+    border: 1px solid #e9e9f0;
+    border-radius: 4px;
+  }
+  /* Date Picker CSS starts here */
+  .label-modal {
+    padding: 7px 0px;
+  }
+  
+  .label-modal-upload {
+    color: #4f515e;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 7px 14px !important;
+    height: 40px;
+  }
+  .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+    justify-content: flex-end !important;
+  }
+  
+  .hidden-label {
+    display: none;
+  }
+  
+  .rdp-months {
+    color: black;
+  }
+  
+  .rdp-caption_label {
+    font-size: 16px !important;
+  }
+  
+  .rdp-nav_icon {
+    height: 12px !important;
+    width: 12px !important;
+  }
+  
+  .rdp-head_cell {
+    text-transform: capitalize !important;
+  }
+  
+  .rdp-button:not([disabled]) {
+    font-size: 13px !important;
+  }
+  
+  .rdp-day_selected {
+    background-color: #4844d7 !important;
+  }
+  
+  /* Date Picker CSS ends here */
+  
+  /* Upload File CSS starts here */
+  
+  .file-input {
+    width: 100%;
+    padding: 9px 13px;
+    font-size: 16px !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 5px;
+  }
+  
+  .file-input-container {
+    position: relative;
+    overflow: hidden;
+    margin-right: 3px;
+  }
+  
+  .choose-file-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f5f6fa;
+    color: #52525c;
+    font-weight: 800;
+    border: none;
+    padding: 11px 15px;
+    cursor: pointer;
+    font-size: 14px !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  /* Upload File CSS ends here */
+  .field-required {
+    color: #d74844;
+  }
+  .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root{
+// border-radius: 10px !important;
+  }
+  .css-43wvuy-MuiInputBase-root-MuiOutlinedInput-root {
+    // border-radius: 10px !important;
+  }
+  .css-1k7p6z7-MuiFormControl-root-MuiTextField-root{ //textfeild height for select white colour
+    // height: 4.2vh !important;
+  }
+  @media only screen and (max-width: 1700px) {
+    .css-1k7p6z7-MuiFormControl-root-MuiTextField-root{ //textfeild height for select white colour
+      // height: 5vh !important;
+    }
+  }
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    // border-radius: 10px !important;
+    // height: 4.2vh !important;
+  } 
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    // border-radius: 10px !important;
+  }

@@ -1,0 +1,15 @@
+.land{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    background: #fff;
+    padding: 54px;
+    border-radius: 30px;
+}
+.imgContainer{
+    width: 100%;
+    object-fit: cover;
+}

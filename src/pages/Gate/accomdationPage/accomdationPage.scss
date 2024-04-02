@@ -1,0 +1,141 @@
+// label {
+//     max-width: 100% !important;
+//     height: 120px !important;
+//     box-sizing: border-box;
+//     border: dashed 3px black !important;
+//     justify-content: space-between !important;
+//   svg{
+//     width: 50px !important;
+//     height: 50px !important;
+//   }
+//   div{
+//     span{
+//         font-size: 20px !important;
+//     }
+//   }
+//   }
+
+
+.fileUploadWrapper{
+    background: #ffffff;
+  width: 100%;
+  padding: 20px 20px;
+  height: 150px;
+  border: 2px dashed black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+  flex-direction: row;
+}
+ 
+.buttonselecfile {
+    border: none !important;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    color:rgb(226, 55, 55);
+    border: 1px solid rgb(226, 55, 55);
+    background: white;
+    border-radius: 5px;
+    padding: 7px 21px;
+    text-transform: uppercase;
+  }
+
+  input[type="file"] {
+    display: none;
+}
+
+.customUpload{
+    border: 1px solid #ccc;
+    border: 1px solid rgb(226, 55, 55);
+    color:rgb(226, 55, 55);
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 12%;
+    text-align: center;
+    height: 40px;
+}
+
+.fileView {
+    color: black;
+    width: 100%;
+  }
+
+
+  .file-wrapper p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .file-wrapper {
+    text-align: left;
+    width: 100%;
+    
+    margin: 22px 0px;
+  }
+  .file-previwe {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #pre_lic {
+    color: #557bb4;
+  }
+  #passpo_leg {
+    font-weight: 500;
+    font-size: 19 px;
+    // font-weight: bold;
+  }
+.legalDocWrapper{
+        padding: 50px !important;
+        background-color: white !important;
+        border-radius: 8px !important;
+        margin: 45px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        height: auto;
+}
+  .termContainer{
+    text-justify:distribute;
+  }
+
+  .termContainer>p{
+    font-size: medium;
+    font-weight: 600;
+    // font-size: 30px;
+    // text-align: center;
+    // margin-top: 1.5rem!important;
+    // margin-bottom: 1.5rem!important;
+    // font-size: calc(1.3rem + .6vw);
+  }
+  .subcc1{
+    font-size: 13px !important;
+    color: #9a9797 !important;
+    margin-bottom: 18px!important;
+  }
+.legaldoc{
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+}
+  .heading{
+    font-size: calc(1.3rem + .6vw) !important;
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+    text-align: center;
+
+  }
+  .subcc{
+    font-size: 21px!important;
+    font-family: system-ui !important;
+    font-weight: 500!important;
+    margin-bottom: 18px!important;
+    color: black!important;
+  }
+
+  .editorDiv{
+    font-size: 20px;
+  }

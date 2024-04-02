@@ -1,0 +1,26 @@
+.breadlink{
+    text-decoration: none;
+    color:inherit
+    
+}
+.activebreadlink{
+    text-decoration: none;
+    // color:#E22D2C;
+    color:#007bff;
+    
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logoutbtn{
+    background-color: rgb(199, 57, 57);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}

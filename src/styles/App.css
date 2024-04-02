@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #4944d7b2 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4944d7b2;
+  border-radius: 2px;
+  border: -1px solid #4944d7b2;
+}
+
+link {
+  text-decoration: none;
+  color: inherit;
+}
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  width: 306px !important;
+  box-sizing: border-box;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px !important;
+}
+.css-73xwai-MuiButtonBase-root-MuiTab-root {
+  border-radius: 8px !important;
+  min-height: 30px !important;
+  max-height: 34px !important;
+  text-transform: none !important;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  border-radius: 12px !important;
+}
+
+.room-tab {
+  border-radius: 10px !important;
+  padding: 0px 15px !important;
+  margin-right: 30px !important;
+  margin-bottom: 20px !important;
+}
+
+.eye-icon {
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+
+.edit-icon {
+  font-size: 16px !important;
+  margin-right: 5px;
+  color: #1097ff;
+}
+.edit-ico {
+  font-size: 17px !important;
+  color: #1097ff;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+.emp-icon {
+  font-size: 20px !important;
+  padding-left: 3px;
+}
+.css-6ny0e-MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.css-73xwai-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: #1097ff !important;
+}
+
+.css-nicx86.Mui-selected{
+  background-color: #1097ff !important;
+
+}
+.commondatepickerflex{
+display: flex;
+justify-content: space-between;
+}
+.commondatepickerlabel{
+  font-size: 14px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.commondatepickerfield{
+width: 60%;
+}
+
+.commomtextfieldflex{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+}
+.commomtextfieldlabel{
+font-size: 14px;
+font-weight: 600;
+width: 40%;
+}
+.commontextfield{
+  width: 60% !important;
+}
+.css-ypiqx9-MuiDialogContent-root {
+  overflow-y: initial !important;
+}
+.css-1a5kzwx-MuiDialogContent-root{
+  overflow-y: initial !important;
+}
+.css-11mlvj5-MuiDialogContent-root {
+  overflow-y: initial !important;
+}
+
+

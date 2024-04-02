@@ -1,0 +1,50 @@
+.chartLabel {
+
+    list-style: none;
+    margin: 0;
+    background: #fff;
+    padding: 2%;
+    font-size: 12px;
+    box-shadow: 1px 1px 0 #ddd, 2px 2px 0 #bbb;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh !important;
+    padding: 12px;
+    border-radius: 5px;
+    background: #e1e1e1;
+    margin:12px 0px;
+
+
+}
+
+.chartLabel li {
+    width: 157px;
+    height: 1.25em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+    width: 157px;
+    height: 1.25em;
+    justify-content: space-between;
+}
+
+.doughchart {
+    height: 200px !important;
+    width: 200px !important;
+    position: relative;
+    margin: 0 0px 10px 0;
+}
+
+@media only screen and (max-width: 1552px) and (min-width: 1536px)  {
+    .doughchart {
+      height: 150px !important;
+      width: 150px !important;
+  }
+  }

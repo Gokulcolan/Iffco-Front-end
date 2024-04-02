@@ -1,0 +1,8 @@
+.logout-btn-div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.logout-btn-div :hover {
+  background-color: #d91f31 !important;
+}

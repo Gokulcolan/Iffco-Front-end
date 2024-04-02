@@ -1,0 +1,55 @@
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: 860px !important;
+  padding: 15px !important;
+} */
+input[type="file"]::file-selector-button {
+  background: rgb(19, 115, 200) !important;
+  border: rgb(19, 115, 200)!important;
+  color: white !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background:rgb(19, 115, 200);
+}
+@media (min-width: 1200px) and (max-width: 1690px) {
+  .css-1a5kzwx-MuiDialogContent-root {
+    overflow-y: initial !important;
+  }
+  .css-11mlvj5-MuiDialogContent-root {
+    overflow-y: initial !important;
+  }
+  .css-ypiqx9-MuiDialogContent-root {
+    overflow-y: initial !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1690px) {
+  .css-3t8uh3 {
+    overflow-y: initial !important;
+  }
+  .css-u2sqdu {
+    overflow-y: initial !important;
+  }
+  .css-1ty026z {
+    overflow-y: initial !important;
+  }
+}
+.digital {
+  padding: 10px !important;
+}
+@media (min-width: 320px) and (max-width: 1034px) {
+  .comparecards {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .vs {
+    padding: 15px !important;
+  }
+}
+
+.vs{
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}

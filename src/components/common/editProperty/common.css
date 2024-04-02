@@ -1,0 +1,98 @@
+.redbtn {
+  border-color: #e33133;
+  color: #e33133;
+}
+.emptybtn {
+  border-color: #d87943;
+outline: none !important;
+  color: #d87943;
+  text-transform: inherit;
+}
+.outlinebtn {
+  background-color: #e33133;
+}
+.mainfilediv {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.subfilediv {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px;
+}
+.legal-btn-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 30px;
+}
+.term-div {
+  text-align: center;
+  padding-top: 40px;
+}
+.points-div {
+  font-size: 13px;
+  width: 100%;
+  padding: 20px 100px;
+}
+.preview-div {
+  color: #0d6efd;
+  cursor: pointer;
+}
+.cancel-btn {
+  background-color: gray !important;
+  color: white !important;
+  margin: 2rem 0px !important;
+}
+.submit-btn {
+  background-color: #1976d2 !important;
+  color: white !important;
+  margin: 2rem 0px !important;
+}
+.dropfile-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  border: 1px dotted black;
+  padding: 30px;
+  border-style: dashed;
+  border-radius: 10px;
+  width: 70%;
+  align-items: center;
+  cursor: pointer;
+}
+.preview-p {
+  color: #0d6efd;
+  cursor: pointer;
+}
+.filesize-p {
+  font-size: 12px;
+  color: gray;
+}
+.legal-h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+.legal-h5 {
+  padding-top: 20px;
+  font-size: 19px;
+}
+.select-p {
+  color: gray;
+  padding-top: 5px;
+  font-size: 13px;
+}
+.main-drop {
+  text-align: -webkit-center !important;
+  padding-top: 30px;
+}
+.h6-drag {
+  font-size: 15px;
+}
+/* .add-btnbtn:hover {
+  background-color: #e22d2c !important;
+} */
